@@ -12,8 +12,8 @@ A report is included in each project too.
 - **The accuracies of all 4 methods are all >= 95%.** Naive Bayes has shown to be the best model for real world application in terms of training & inference time, scalability and computational demand.
 
     <center>
-    <figure><img src="public/images/twitter_confusion_matrices.png" alt="Figure: Prediction results in condusion matrices" style="width:500px"><figcaption align="center">Figure: Prediction results in condusion matrices</figcaption></figure>
-    <figure><img src="public/images/twitter_overall_performance.png" alt="Figure: Overall Performance of 4 methods" style="width:500px"><figcaption align="center">Figure: Overall Performance of 4 methods</figcaption></figure>
+    <figure><img src="public/images/twitter_confusion_matrices.png" alt="Figure: Prediction results in condusion matrices" style="width:500px"><figcaption align="center"><br>Figure: Prediction results in condusion matrices</figcaption></figure>
+    <figure><img src="public/images/twitter_overall_performance.png" alt="Figure: Overall Performance of 4 methods" style="width:500px"><figcaption align="center"><br>Figure: Overall Performance of 4 methods</figcaption></figure>
     </center>
     
 
@@ -30,7 +30,7 @@ a) Number Classification
     <details>
     <summary><b>View cool figures! 👈</b></summary>
     <center>
-    <figure><img src="public/images/dcnn_identifying_numbers.png" alt="Figure: Performance of 3 approaches, plus a non-deep method - SVM" style="width:600px"><figcaption align="center">Figure: Performance of 3 approaches, plus a non-deep method - SVM</figcaption></figure>
+    <figure><img src="public/images/dcnn_identifying_numbers.png" alt="Figure: Performance of 3 approaches, plus a non-deep method - SVM" style="width:600px"><figcaption align="center"><br>Figure: Performance of 3 approaches, plus a non-deep method - SVM</figcaption></figure>
     </center>
     </details>
 
@@ -40,7 +40,7 @@ b) Person Re-identification
     <details>
     <summary><b>View cool figures! 👈</b></summary>
     <center>
-    <figure><img src="public/images/dcnn_cmc_curve.png" alt="Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model" style="width:400px"><figcaption align="center">Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model</figcaption></figure>
+    <figure><img src="public/images/dcnn_cmc_curve.png" alt="Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model" style="width:400px"><figcaption align="center"><br>Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model</figcaption></figure>
     </center>
     </details>
 
@@ -54,8 +54,8 @@ a) Regression
     <details>
     <summary><b>View cool figures! 👈</b></summary>
     <center>
-    <figure><img src="public/images/regression_corr_heatmap.png" alt="igure: Data correlation heatmap" style="width:500px"><figcaption align="center">Figure: Data correlation heatmap</figcaption></figure>
-    <figure><img src="public/images/regression_linear_regression.png" alt="Figure: Linear Regression result and its prediction" style="width:500px"><figcaption align="center">Figure: Linear Regression result and its prediction</figcaption></figure>
+    <figure><img src="public/images/regression_corr_heatmap.png" alt="igure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
+    <figure><img src="public/images/regression_linear_regression.png" alt="Figure: Linear Regression result and its prediction" style="width:500px"><figcaption align="center"><br>Figure: Linear Regression result and its prediction</figcaption></figure>
     </center>
     </details>
 
@@ -67,8 +67,8 @@ b) Classification
     <details>
     <summary><b>View cool figures! 👈</b></summary>
     <center>
-    <figure><img src="public/images/classification_corr_heatmap.png" alt="Figure: Data correlation heatmap" style="width:500px"><figcaption align="center">Figure: Data correlation heatmap</figcaption></figure>
-    <figure><img src="public/images/classification_svm_best.png" alt="Figure: Confusion matrices of SVM prediction" style="width:500px"><figcaption align="center">Figure: Confusion matrices of SVM prediction</figcaption></figure>
+    <figure><img src="public/images/classification_corr_heatmap.png" alt="Figure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
+    <figure><img src="public/images/classification_svm_best.png" alt="Figure: Confusion matrices of SVM prediction" style="width:500px"><figcaption align="center"><br>Figure: Confusion matrices of SVM prediction</figcaption></figure>
     </center>
     </details>
 
