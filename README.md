@@ -46,7 +46,14 @@ b) Person Re-identification
 
 <br>
 
-## **3. Regression & Classification -** [Click to explore](/3.%20Regression%20%26%20Classification/)
+## **3. Movie Recommendation -** [Click to explore](/3.%20Movie%20recommendation%20-%20Clustering/)
+- Uses Gaussian Mixture Model (GMM) out of other methods like HAC, DBScan, K-Means because of its scalability and probability assignment.
+- The number of K cluster is chosen based on Bayesian Information Criterion which also takes model complexity into consideration
+- For the result, suggested movies are closely related to user's watched ones and no obviously unrelated recommendation is detected
+
+<br>
+
+## **4. Regression & Classification -** [Click to explore](/4.%20Regression%20%26%20Classification/)
 
 a) Regression
 - Predicting crime percentage per population in a suburb by using (Linear Regression, Ridge, Lasso). 
@@ -59,7 +66,6 @@ a) Regression
     <figure><img src="public/images/regression_linear_regression.png" alt="Figure: Linear Regression result and its prediction" style="width:500px"><figcaption align="center"><br>Figure: Linear Regression result and its prediction</figcaption></figure>
     </center>
     </details>
-
 
 
 b) Classification
