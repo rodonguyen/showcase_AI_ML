@@ -55,6 +55,7 @@ a) Regression
     <summary><b>View cool figures! 👈</b></summary>
     <center>
     <figure><img src="public/images/regression_corr_heatmap.png" alt="igure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
+    <br>
     <figure><img src="public/images/regression_linear_regression.png" alt="Figure: Linear Regression result and its prediction" style="width:500px"><figcaption align="center"><br>Figure: Linear Regression result and its prediction</figcaption></figure>
     </center>
     </details>
@@ -68,6 +69,7 @@ b) Classification
     <summary><b>View cool figures! 👈</b></summary>
     <center>
     <figure><img src="public/images/classification_corr_heatmap.png" alt="Figure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
+    <br>
     <figure><img src="public/images/classification_svm_best.png" alt="Figure: Confusion matrices of SVM prediction" style="width:500px"><figcaption align="center"><br>Figure: Confusion matrices of SVM prediction</figcaption></figure>
     </center>
     </details>
