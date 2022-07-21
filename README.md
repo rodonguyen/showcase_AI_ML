@@ -22,9 +22,9 @@ A report is included in each project too.
 ## **2. Deep Convolutional Neural Network Applications -** [Click to explore](/2.%20Deep%20Convolutional%20Neural%20Network%20Applications/)
 
 a) Number Classification
-- Designed a **Neural Network** following VGG style to regconise numbers from Street View House Numbers dataset
+- Designed a **Neural Network** following VGG style to regconise numbers from Street View House Numbers dataset. This project removes a large part of the data to simulate data shortage.
 - 3 approaches were used to train, test and evaluate the model:
-    - Train the model from scratch
+    - Train from scratch
     - Apply **data augmentation** to combat data shortage
     - **Transfer learning** + Data augmentation
     <details>
