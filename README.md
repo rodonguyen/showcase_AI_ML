@@ -27,22 +27,20 @@ a) Number Classification
     - Train from scratch
     - Apply **data augmentation** to combat data shortage
     - **Transfer learning** + Data augmentation
-    <details>
-    <summary><b>View cool figures! 👈</b></summary>
     <center>
-    <figure><img src="public/images/dcnn_identifying_numbers.png" alt="Figure: Performance of 3 approaches, plus a non-deep method - SVM" style="width:600px"><figcaption align="center"><br>Figure: Performance of 3 approaches, plus a non-deep method - SVM</figcaption></figure>
+    <figure><img src="public/images/dcnn_identifying_numbers.png" alt="Figure: Performance of 3 approaches, plus a non-deep method - SVM" style="width:600px"><figcaption align="center"><br>Figure: Performance of 3 approaches, plus a non-deep method (SVM). This helps us compare the pros and cons of utilising different models to do the same tasks. </figcaption></figure>
     </center>
-    </details>
+    <!-- <details>
+    <summary><b>View cool figures! 👈</b></summary>
+    </details> -->
 
 b) Person Re-identification
 - Implemented **Siamese model** and **Triplet Loss Function** for its advantage in focusing on increasing/decreasing distance between matching/mismatching data to re-identify person.
 - Top-10 Accuracy reached 64% (i.e. subject is matched in the 10 most closest results with 64% success rate) and Top-1 Accuracy reached 25%. This is an impressive result given the simple model and low-quality dataset.
-    <details>
-    <summary><b>View cool figures! 👈</b></summary>
+
     <center>
-    <figure><img src="public/images/dcnn_cmc_curve.png" alt="Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model" style="width:400px"><figcaption align="center"><br>Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model</figcaption></figure>
+    <figure><img src="public/images/dcnn_cmc_curve.png" alt="Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model" style="width:400px"><figcaption align="center"><br>Figure: Cumulative Matching Characteristics (CMC) curve of the Siamese Model. Based on this curve, we can see if the model is good (the more top left it bends to, the better) </figcaption></figure>
     </center>
-    </details>
 
 <br>
 
@@ -57,26 +55,23 @@ b) Person Re-identification
 
 a) Regression
 - Predicting crime percentage per population in a suburb by using (Linear Regression, Ridge, Lasso). 
-- Analysis from correlation heat map shows many variables are redundent and measuring similar subjects. Data are standardised before fitting the model to set all columns' values to the same scale. Thus enhance accuracy and avoid bias.
-    <details>
-    <summary><b>View cool figures! 👈</b></summary>
+- Analysis from correlation heat map **below** shows many variables are redundent and measuring similar subjects. Data are standardised before fitting the model to set all columns' values to the same scale. Thus enhance accuracy and avoid bias.
+
     <center>
     <figure><img src="public/images/regression_corr_heatmap.png" alt="igure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
     <br>
     <figure><img src="public/images/regression_linear_regression.png" alt="Figure: Linear Regression result and its prediction" style="width:500px"><figcaption align="center"><br>Figure: Linear Regression result and its prediction</figcaption></figure>
     </center>
-    </details>
+
 
 
 b) Classification
 - Applied and Compare performance of 3 different classifiers (SVM, CKNN, Random Forest) in identifying 4 different forest types.
 - Process also includes data split, finding the best params from Validation data using GridSearchCV and finally evaluate result on Test data.
-    <details>
-    <summary><b>View cool figures! 👈</b></summary>
+
     <center>
-    <figure><img src="public/images/classification_corr_heatmap.png" alt="Figure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap</figcaption></figure>
+    <figure><img src="public/images/classification_corr_heatmap.png" alt="Figure: Data correlation heatmap" style="width:500px"><figcaption align="center"><br>Figure: Data correlation heatmap. Similar to the one above, it helps us to identify redundent/unhelpful predictors and from here, we formulate a suitable solution.</figcaption></figure>
     <br>
-    <figure><img src="public/images/classification_svm_best.png" alt="Figure: Confusion matrices of SVM prediction" style="width:500px"><figcaption align="center"><br>Figure: Confusion matrices of SVM prediction</figcaption></figure>
+    <figure><img src="public/images/classification_svm_best.png" alt="Figure: Confusion matrices of SVM prediction" style="width:500px"><figcaption align="center"><br>Figure: Confusion matrices of SVM prediction. Good for model performance evaluation for individual class.</figcaption></figure>
     </center>
-    </details>
 
