@@ -7,9 +7,10 @@ A report is included in each project too.
 
 ## **1. Twitter Spam Detection -** [Click to explore](/1.%20Twitter%20Spam%20Detection/)
 
-- Detect spam tweets using its content and some other numeric metadata. 4 methods are implemented: LSTM, Transformer, Naive Bayes, SVM. 
-- Pre-processed tweets using Tokeniser (LSTM, Transformer) or Bag-of-words (SVM, Naive Bayes). In deep learning methods, other numeric data were fetched into the model via a separate second input stream.
-- **The accuracies of all 4 methods are all >= 95%.** Naive Bayes has shown to be the best model for real world application in terms of training & inference time, scalability and computational demand.
+- **Able to identify spam tweets with >95% accuracy** using 4 Machine Learning methods: LSTM, Transformer, SVM and Naive Bayes
+- Incorporated more useful tweet metadata by expanding existing model design, leading to better learning and thus higher accuracy
+- Attained insightful conclusions of the model behaviours through rigorous analysis on failed cases
+- Evaluated each method’s suitability on real world application in terms of training & inference time, scalability and computational demand. Naive Bayes has shown to be the best model.
 
     <center>
     <figure><img src="public/images/twitter_confusion_matrices.png" alt="Figure: Prediction results in condusion matrices" style="width:500px"><figcaption align="center"><br>Figure: Prediction results in condusion matrices</figcaption></figure>
