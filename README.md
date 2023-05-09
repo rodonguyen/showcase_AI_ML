@@ -1,11 +1,11 @@
-# **My AI/ML Projects** 😉
+# **My Machine Learning Projects** 😉
 
-Some of my most hightlight AI/ML projects are present in this repo.  
-A report is included in each project too.
+My most hightlight ML projects are presented in this repo.  
+An in-depth report is included in each project too.
 
 <br>
 
-## **1. Twitter Spam Detection -** [Click to explore](/1.%20Twitter%20Spam%20Detection/)
+## **1. Twitter Spam Detection -** [Click to explore](/1.%20Twitter%20Spam%20Detection/) | [Try the app](https://rodonguyen-spam-tweet-detector-app-app-ixl0vb.streamlit.app/)
 
 - **Able to identify spam tweets with >95% accuracy** using 4 Machine Learning methods: LSTM, Transformer, SVM and Naive Bayes
 - Incorporated more useful tweet metadata by expanding existing model design, leading to better learning and thus higher accuracy
